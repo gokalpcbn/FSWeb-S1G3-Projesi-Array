@@ -57,9 +57,7 @@ Bir dizinin tam olarak 25 çeşit olduğunu onaylayın. İşleviniz şunları ka
 */
 
 
-function dizi25Cesitmi(tatlar){
-  return tatlar.length === 25;
-}
+const dizi25Cesitmi = (tatlar) => tatlar.length === 25;
 
 
 /* Görev 3:
@@ -94,8 +92,9 @@ Aşağıdakileri yapmak için sonCesitiKaldir işlevini kullanın:
 */
 
 
-function sonCesitiKaldir(/*kod buraya*/){
-  /*kod buraya*/
+function sonCesitiKaldir(orijinalTatlar){
+  orijinalTatlar.pop();
+  return orijinalTatlar;
 }
 
 
